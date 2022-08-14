@@ -1,11 +1,10 @@
 {
   "name": "mern-project-thapa",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js",
+    "start": "node app.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
@@ -19,5 +18,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.0",
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
